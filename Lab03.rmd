@@ -1,0 +1,68 @@
+---
+title: "Lab 03"
+author: ""
+date: ""
+editor_options: 
+  chunk_output_type: console
+output:
+  pdf_document: default
+---
+
+# Packages
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(sf)
+``` 
+
+# Data
+
+```{r load-data, message = FALSE}
+fl_votes <- st_read("data/fl_votes.shp", quiet = TRUE)
+fl_votes %>%
+  slice(1:6)
+```
+
+
+# Exercise 1
+
+```{r add-winner}
+
+```
+
+
+# Exercise 2
+
+```{r fl-plot-1}
+
+
+```
+
+# Exercise #3
+
+```{r fl-props}
+
+```
+
+# Exercise 4
+
+```{r fl-plot-2}
+
+```
+
+# Exercise 5
+
+```{r fl-change}
+
+```
+
+# Exercise 6
+
+```{r fl-plot-3}
+
+```
+
+# Exercise 7
+
+
+
